@@ -1,0 +1,25 @@
+Main task:
+The program should allow the user to play Mastermind against the computer. The computer should generate a
+random code of four colours from a range of six different colours (e.g., Red, Green, Blue, Yellow, Orange, Pink).
+There should not be any repeating colours in the generated code.
+The player should be able to enter a guess, for example ‘RGBY’. The program should print ‘+’ if the colour occurs
+in the code and is in the right position and ‘-’ if the guessed colour is in the code but is in the wrong position.
+Any ‘+’ symbols should be displayed first, and, the computer does not reveal which colour in the guess was
+right. So, for example, if the player’s guess was ‘GPBY’ and the code was ‘RGBY’, the computer should display:
+++-
+The number of allowed guesses is 12.
+If the player runs out of guesses, the computer should tell them that they have lost the game and reveal the
+code. If the player enters the correct code, they win the game, and the computer should print a congratulatory
+Updated August 2020 4 of 7
+Department of Computer Science
+message. Irrespective of whether the player wins or loses, the program should ask the user if they want to play
+again or quit.
+
+Student B: The player should be able to choose whether they want to play with repeating colours in
+the code or not. If they choose to play with repeating colours, the game should correctly support this
+through the gameplay.
+
+Ideas for additional functionalities for either variation (optional):
+➢ The program keeps the player vs computer score; for example, if the player has won a game, the score
+is 1-0. If the player continues playing, the score should be updated after each game, accordingly.
+➢ Your own ideas.
